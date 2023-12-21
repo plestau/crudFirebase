@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context=".uploadActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp">
+        <EditText
+            android:id="@+id/uploadTitle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/green_border"
+            android:layout_marginTop="20dp"
+            android:hint="Enter Book Title"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="center"
+            android:layout_gravity="start|center_vertical"
+            android:textColor="@color/green"/>
+        <EditText
+            android:id="@+id/uploadAuthorName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/green_border"
+            android:layout_marginTop="20dp"
+            android:hint="Enter Author Name"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="center"
+            android:layout_gravity="start|center_vertical"
+            android:textColor="@color/green"/>
+        <EditText
+            android:id="@+id/uploadGenre"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/green_border"
+            android:layout_marginTop="20dp"
+            android:hint="Enter Genre"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="center"
+            android:layout_gravity="start|center_vertical"
+            android:textColor="@color/green"/>
+        <EditText
+            android:id="@+id/uploadYear"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/green_border"
+            android:layout_marginTop="20dp"
+            android:hint="Enter Year of Publication"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="center"
+            android:layout_gravity="start|center_vertical"
+            android:textColor="@color/green"/>
+        <EditText
+            android:id="@+id/uploadResume"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/green_border"
+            android:layout_marginTop="20dp"
+            android:hint="Enter Resume"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="center"
+            android:layout_gravity="start|center_vertical"
+            android:textColor="@color/green"/>
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/green"
+            android:text="Guardar"
+            android:textSize="18sp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            app:cornerRadius="10dp"/>
+    </LinearLayout>
+</LinearLayout>
